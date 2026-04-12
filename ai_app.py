@@ -6,12 +6,12 @@ from PIL import Image
 # إعدادات الصفحة
 st.set_page_config(page_title="Tunisian AI Generator", page_icon="🤖")
 
-st.title("🤖 ذكاء اصطناعي تونسي 🇹🇳")
+st.title("🤖 🇹🇳")
 st.markdown("---")
 
 # خانة إدخال الكلام
 st.subheader("أوصفلي التصويرة اللي تحب تصنعها:")
-prompt = st.text_input("أكتب بالإنجليزية (مثلاً: A robot drinking tea in Sidi Bou Said)", "")
+prompt = st.text_input("أكتب بالإنجليزية ", "")
 
 # زر الصناعة
 if st.button("أصنع السحر ✨"):
