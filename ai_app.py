@@ -10,7 +10,7 @@ st.subheader("أوصفلي التصويرة اللي تحب تصنعها:")
 prompt = st.text_input("أكتب بالإنجليزية ", "")
 
 
-if st.button("أصنع السحر ✨"):
+if st.button("✨"):
     if prompt:
         with st.spinner('قاعد نخدم على تصويرتك...'):
             image_url = f"https://image.pollinations.ai/prompt/{prompt.replace(' ', '%20')}?width=1024&height=1024&model=flux"
