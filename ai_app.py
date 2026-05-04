@@ -58,8 +58,7 @@ st.markdown("---")
 # ── Step 1: User Input ────────────────────────────────────────────────────────
 st.subheader("1️⃣  Describe the image you want to create:")
 user_prompt = st.text_area(
-    "Write in any language — English, Arabic or  French",
-    placeholder="Example: A cat playing football in an old Tunisian street",
+    "Write in any language — English or  French",
     height=100,
 )
 
